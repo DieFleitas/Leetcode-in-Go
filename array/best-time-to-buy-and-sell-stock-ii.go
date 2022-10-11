@@ -1,6 +1,6 @@
 package main
 
-func maxProfit(prices []int) int {
+func maxProfit2(prices []int) int {
 	if prices ==nil || len(prices) == 0 {
 		return 0
 	}
